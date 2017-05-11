@@ -1,0 +1,27 @@
+// Acá llamamos a los helpers
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'helpers/typography';
+
+// Estilos mobile first
+@import 'bundles/bundle__small';
+
+// tablets
+@media screen and (min-width: 768px) {
+    @import 'bundles/bundle__medium';
+}
+
+// desktop
+@media screen and (min-width: 1024px) {
+    @import 'bundles/bundle__large';
+}
+
+
+/*
+Para compilar los archivos:
+    - Nos paramos en la raiz del proyecto
+    - Utilizamos comando:
+        sass --watch styles/sass/main.scss:styles/css/main.css
+    Va a leer cada vez que guarde un cambio en un archivo y va a volver a generar mi archivo CSS.
+    Este archivo CSS no se toca.
+*/

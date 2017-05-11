@@ -1,0 +1,12 @@
+/*
+Para compilar los archivos:
+    - Nos paramos en la raiz del proyecto
+    - Utilizamos comando:
+        sass --watch styles/sass/main.scss:styles/css/main.css
+    Va a leer cada vez que guarde un cambio en un archivo y va a volver a generar mi archivo CSS.
+    Este archivo CSS no se toca.
+*/
+
+/*# sourceMappingURL=main.css.map */
+
+.grid-item { width: 395px; }

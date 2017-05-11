@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="styles/css/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/css/main.css">
+        <link rel="stylesheet" href="styles/css/font-awesome.min.css">
+
+    </head>
+
+<body>
+
+    <header>
+        <div class="logo"><img src="images/logo.png"></div>
+    	<nav>
+    		<ul>
+    			<li>PROYECTOS</li>
+    			<li>SERVICIOS</li>
+    			<li>ACERCA MIO</li>
+    			<li>CONTACTO</li>
+    		</ul>
+    	</nav>
+    	<div class="iconos-redes">
+    		<i class="fa fa-behance" aria-hidden="true"></i>
+    		<i class="fa fa-linkedin" aria-hidden="true"></i>
+    		<i class="fa fa-facebook" aria-hidden="true"></i>
+    	</div>
+    </header>
+
+    <main>
+    	<div class="grid container-gird">
+		  <div class="grid-item"><img src="images/imagen-1.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-4.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-8.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-3.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-5.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-2.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-6.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-11.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-7.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-9.jpg"></div>
+		  <div class="grid-item"><img src="images/imagen-10.jpg"></div>
+  		</div>
+    </main>
+
+
+    <script src="plugins/js/bootstrap.min.js"></script>
+    <script src="plugins/js/masonry.min.js"></script>
+    <!--<script src="masonry.min.js"></script>-->
+    <script type="text/javascript">
+    	var elem = document.querySelector('.grid');
+		var msnry = new Masonry( elem, {
+		  // options
+		  itemSelector: '.grid-item',
+		  columnWidth: 200
+		});
+    </script>
+
+
+
+    <footer>
+    	<div class="footer-eve">
+    		Powerade by EVE MARTIRE
+    	</div>
+    </footer>
+
+
+</body>
+</html>
