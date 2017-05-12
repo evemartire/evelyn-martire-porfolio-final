@@ -3,7 +3,33 @@
 @import 'helpers/mixins';
 @import 'helpers/typography';
 
+
+
+// desktop
+@import 'bundles/bundle__large';
+
+
+// tablets
+@media screen and (max-width: 1023px) {
+    @import 'bundles/bundle__medium';
+}
+
 // Estilos mobile first
+@media screen and (max-width: 767px){
+@import 'bundles/bundle__small';
+}
+
+
+
+/*
+Para compilar los archivos:
+    - Nos paramos en la raiz del proyecto
+    - Utilizamos comando:
+        sass --watch styles/sass/main.scss:styles/css/main.css
+    Va a leer cada vez que guarde un cambio en un archivo y va a volver a generar mi archivo CSS.
+    Este archivo CSS no se toca.
+
+    // Estilos mobile first
 @import 'bundles/bundle__small';
 
 // tablets
@@ -15,13 +41,4 @@
 @media screen and (min-width: 1024px) {
     @import 'bundles/bundle__large';
 }
-
-
-/*
-Para compilar los archivos:
-    - Nos paramos en la raiz del proyecto
-    - Utilizamos comando:
-        sass --watch styles/sass/main.scss:styles/css/main.css
-    Va a leer cada vez que guarde un cambio en un archivo y va a volver a generar mi archivo CSS.
-    Este archivo CSS no se toca.
 */

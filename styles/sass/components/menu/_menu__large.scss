@@ -1,0 +1,57 @@
+header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	margin-left: 80px;
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+nav{
+	
+	ul{
+		list-style: none;
+	}
+
+	li{
+		display: inline-block;
+		text-decoration: none;
+		color: #595959;
+		padding: 20px;
+
+		&:hover{
+			color: $amarillo-oscuro;
+			font-size: 16px;
+		}
+	}
+} 
+
+.iconos-redes{
+	margin-right: 80px;
+
+
+	.fa.fa-behance{
+	font-size: 20px;
+	background: $rosa;
+	color: #fff;
+	padding: 10px;
+}
+
+.fa.fa-linkedin{
+	font-size: 20px;
+	background: $rosa;
+	color: #fff;
+	padding: 10px;
+}
+
+.fa.fa-facebook{
+	font-size: 20px;
+	background: $rosa;
+	color: #fff;
+	padding: 10px;
+}
+
+}
