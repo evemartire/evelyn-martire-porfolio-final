@@ -27,6 +27,15 @@ nav{
 			font-size: 16px;
 		}
 	}
+
+	.sin-fondo{
+    padding: 0px;
+    margin: 0px;
+    background: white;
+    }
+
+
+
 } 
 
 .iconos-redes{
@@ -54,4 +63,9 @@ nav{
 	padding: 10px;
 }
 
+}
+
+.navbar-default {
+    background-color: white;
+    border-color: white;
 }

@@ -22,6 +22,10 @@ nav li {
   nav li:hover {
     color: #e4cf8c;
     font-size: 16px; }
+nav .sin-fondo {
+  padding: 0px;
+  margin: 0px;
+  background: white; }
 
 .iconos-redes {
   margin-right: 80px; }
@@ -40,6 +44,10 @@ nav li {
     background: #ffaaa3;
     color: #fff;
     padding: 10px; }
+
+.navbar-default {
+  background-color: white;
+  border-color: white; }
 
 .footer-eve {
   background-color: #ffaaa3;
@@ -133,6 +141,10 @@ nav li {
     nav li:hover {
       color: #e4cf8c;
       font-size: 16px; }
+  nav .sin-fondo {
+    padding: 0px;
+    margin: 0px;
+    background: white; }
 
   .iconos-redes {
     margin-right: 80px; }
@@ -151,6 +163,10 @@ nav li {
       background: #ffaaa3;
       color: #fff;
       padding: 10px; }
+
+  .navbar-default {
+    background-color: white;
+    border-color: white; }
 
   .columna-imagenes {
     width: 50%;
@@ -254,6 +270,10 @@ nav li {
       background: #ffaaa3;
       color: #fff;
       padding: 10px; }
+
+  .navbar-default {
+    background-color: white;
+    border-color: white; }
 
   footer {
     color: red; }
