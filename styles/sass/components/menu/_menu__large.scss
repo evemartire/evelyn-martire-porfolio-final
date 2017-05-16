@@ -1,14 +1,20 @@
-header{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 10px auto;
 }
 
 .logo{
-	margin-left: 80px;
-	margin-top: 30px;
+	margin-left: 10px;
+    margin-top: 30px;
     margin-bottom: 30px;
     width: 60px;
+
+    img{
+    	width: 70px;
+    }
 
 }
 
@@ -36,12 +42,23 @@ nav{
     background: white;
     }
 
-
-
 } 
 
+
+.nav>li {
+    position: relative;
+    display: inline-block;
+}
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .iconos-redes{
-	margin-right: 80px;
+	margin-right: 10px;
 
 
 	.fa.fa-behance{
@@ -52,14 +69,14 @@ nav{
 }
 
 .fa.fa-linkedin{
-	font-size: 20px;
+	font-size: 15px;
 	background: $rosa;
 	color: #fff;
 	padding: 10px;
 }
 
 .fa.fa-facebook{
-	font-size: 20px;
+	font-size: 15px;
 	background: $rosa;
 	color: #fff;
 	padding: 10px;

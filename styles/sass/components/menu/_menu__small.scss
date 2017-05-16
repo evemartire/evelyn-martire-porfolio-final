@@ -1,11 +1,13 @@
-header{
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 90%;
+    margin: 10px auto;
 }
 
 .logo{
-	margin-left: 30px;
+	margin-left: 10px;
 	margin-top: 0px;
     margin-bottom: 10px;
 }
@@ -30,7 +32,7 @@ nav{
 } 
 
 .iconos-redes{
-	margin-right: 30px;
+	margin-right: 10px;
 
 
 	.fa.fa-behance{
