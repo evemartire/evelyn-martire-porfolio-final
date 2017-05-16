@@ -10,7 +10,8 @@ header {
 .logo {
   margin-left: 80px;
   margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  width: 60px; }
 
 nav ul {
   list-style: none; }
@@ -30,7 +31,7 @@ nav .sin-fondo {
 .iconos-redes {
   margin-right: 80px; }
   .iconos-redes .fa.fa-behance {
-    font-size: 20px;
+    font-size: 15px;
     background: #ffaaa3;
     color: #fff;
     padding: 10px; }
@@ -119,6 +120,15 @@ nav .sin-fondo {
 
 .image-hover:hover {
   opacity: 1; }
+
+.furia-animal {
+  margin-left: 80px; }
+  .furia-animal h3 {
+    margin-top: 0px;
+    font-weight: 700; }
+  .furia-animal p {
+    color: #6d6d6d;
+    font-weight: 300; }
 
 @media screen and (max-width: 1023px) {
   header {
