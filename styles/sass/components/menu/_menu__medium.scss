@@ -6,11 +6,16 @@ header {
     margin: 10px auto;
 }
 
-.logo {
-    margin-left: 10px;
+.logo{
+	margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 60px;
+    width: 100%;
+
+    img{
+    	width: 70px;
+    }
+
 }
 
 nav{
@@ -35,22 +40,52 @@ nav{
     padding: 0px;
     margin: 0px;
     background: white;
-}
+    }
 
 } 
 
+.navbar,
+.navbar-default{
+	width: 100%;
+}
+
+.container-fluid{
+	position: relative;
+}
+
+.navbar-header{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.logo-display{
+	display: inline-block;
+}
 
 .nav>li {
     position: relative;
     display: inline-block;
 }
 
+
+/*
 .container-fluid {
     padding-right: 0px;
     padding-left: 0px;
     margin-right: 0;
     margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
+*/
+
+.container-fluid{
+  position: relative;
+}
+
 
 .iconos-redes{
 	margin-right: 10px;
@@ -79,8 +114,11 @@ nav{
 
 }
 
-
 .navbar-default {
     background-color: white;
     border-color: white;
+}
+
+.ajustes-menu{
+	width: 100%;
 }

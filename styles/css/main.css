@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:300,400,700,900");
+.row {
+  margin: 0px; }
+
 body {
   font-family: 'Lato', sans-serif; }
 
@@ -13,7 +16,7 @@ header {
   margin-left: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
-  width: 60px; }
+  width: 100%; }
   .logo img {
     width: 70px; }
 
@@ -32,15 +35,39 @@ nav .sin-fondo {
   margin: 0px;
   background: white; }
 
+.navbar,
+.navbar-default {
+  width: 100%; }
+
+.container-fluid {
+  position: relative; }
+
+.navbar-header {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 0; }
+
+.logo-display {
+  display: inline-block; }
+
 .nav > li {
   position: relative;
   display: inline-block; }
 
+/*
 .container-fluid {
-  padding-right: 0px;
-  padding-left: 0px;
-  margin-right: 0;
-  margin-left: 0; }
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+*/
+.container-fluid {
+  position: relative; }
 
 .iconos-redes {
   margin-right: 10px; }
@@ -63,6 +90,12 @@ nav .sin-fondo {
 .navbar-default {
   background-color: white;
   border-color: white; }
+
+.ajustes-menu {
+  width: 100%; }
+
+.navbar-eve {
+  text-align: center; }
 
 .footer-eve {
   background-color: #ffaaa3;
@@ -194,14 +227,8 @@ nav .sin-fondo {
   opacity: 1; }
 
 .furia-animal {
-  margin-left: 80px; }
-  .furia-animal h3 {
-    margin-top: 0px;
-    font-weight: 700;
-    font-size: 15px; }
-  .furia-animal p {
-    color: #6d6d6d;
-    font-weight: 300; }
+  margin-left: 80px;
+  font-weight: 300; }
 
 @media screen and (max-width: 1023px) {
   header {
@@ -215,7 +242,9 @@ nav .sin-fondo {
     margin-left: 10px;
     margin-top: 30px;
     margin-bottom: 30px;
-    width: 60px; }
+    width: 100%; }
+    .logo img {
+      width: 70px; }
 
   nav ul {
     list-style: none; }
@@ -232,15 +261,39 @@ nav .sin-fondo {
     margin: 0px;
     background: white; }
 
+  .navbar,
+  .navbar-default {
+    width: 100%; }
+
+  .container-fluid {
+    position: relative; }
+
+  .navbar-header {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  .logo-display {
+    display: inline-block; }
+
   .nav > li {
     position: relative;
     display: inline-block; }
 
+  /*
   .container-fluid {
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-right: 0;
-    margin-left: 0; }
+      padding-right: 0px;
+      padding-left: 0px;
+      margin-right: 0;
+      margin-left: 0;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+  }
+  */
+  .container-fluid {
+    position: relative; }
 
   .iconos-redes {
     margin-right: 10px; }
@@ -263,6 +316,9 @@ nav .sin-fondo {
   .navbar-default {
     background-color: white;
     border-color: white; }
+
+  .ajustes-menu {
+    width: 100%; }
 
   .columna-imagenes {
     width: 50%;
@@ -379,7 +435,17 @@ nav .sin-fondo {
   .columna-imagenes {
     width: 100%;
     display: inline-block;
-    vertical-align: top; } }
+    vertical-align: top; }
+
+  .furia-animal {
+    margin-left: 0px; }
+    .furia-animal h3 {
+      margin-top: 0px;
+      font-weight: 700;
+      font-size: 15px; }
+    .furia-animal p {
+      color: #6d6d6d;
+      font-weight: 300; } }
 /*
 Para compilar los archivos:
     - Nos paramos en la raiz del proyecto
