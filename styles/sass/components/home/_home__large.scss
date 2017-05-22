@@ -222,13 +222,26 @@
     justify-content: flex-end;
 }
 
+.fondo-servicios{
+  background-color: $verde;
+  padding: 40px;
+  margin-top: 50px;
+}
 
+.servicios{
+  text-align: center;
+  font-size: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  color: $color-tipografia;
+}
 
 
 .row-servicios{
-  margin-top: 50px;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .servicios-estilos{
@@ -236,6 +249,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+
 
     h4{
       color: $color-tipografia;

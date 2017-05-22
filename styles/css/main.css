@@ -279,16 +279,30 @@ nav .sin-fondo {
   display: flex;
   justify-content: flex-end; }
 
+.fondo-servicios {
+  background-color: #e8eceb;
+  padding: 40px;
+  margin-top: 50px; }
+
+.servicios {
+  text-align: center;
+  font-size: 700;
+  font-size: 20px;
+  margin-top: 20px;
+  color: #6d6d6d; }
+
 .row-servicios {
   margin-top: 50px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 20px; }
 
 .servicios-estilos {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  margin-top: 10px; }
   .servicios-estilos h4 {
     color: #6d6d6d; }
   .servicios-estilos p {
