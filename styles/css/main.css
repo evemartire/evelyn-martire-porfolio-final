@@ -22,6 +22,8 @@ header {
 
 nav ul {
   list-style: none; }
+nav a {
+  text-decoration: none; }
 nav li {
   display: inline-block;
   text-decoration: none;
@@ -34,6 +36,15 @@ nav .sin-fondo {
   padding: 0px;
   margin: 0px;
   background: white; }
+
+.activo {
+  text-decoration: none;
+  color: #e4cf8c;
+  font-size: 16px; }
+  .activo:hover {
+    color: #e4cf8c;
+    font-size: 16px;
+    background: #fff; }
 
 .navbar,
 .navbar-default {
@@ -69,24 +80,6 @@ nav .sin-fondo {
 .container-fluid {
   position: relative; }
 
-.iconos-redes {
-  margin-right: 10px; }
-  .iconos-redes .fa.fa-behance {
-    font-size: 15px;
-    background: #ffaaa3;
-    color: #fff;
-    padding: 10px; }
-  .iconos-redes .fa.fa-linkedin {
-    font-size: 15px;
-    background: #ffaaa3;
-    color: #fff;
-    padding: 10px; }
-  .iconos-redes .fa.fa-facebook {
-    font-size: 15px;
-    background: #ffaaa3;
-    color: #fff;
-    padding: 10px; }
-
 .navbar-default {
   background-color: white;
   border-color: white; }
@@ -98,11 +91,28 @@ nav .sin-fondo {
   text-align: center; }
 
 .footer-eve {
-  background-color: #ffaaa3;
+  background-color: #e4cf8c;
   padding: 20px;
-  color: #6d6d6d;
+  color: #fff;
   text-align: center;
   margin-top: 50px; }
+  .footer-eve p {
+    padding: 10px 10px 0px 10px; }
+
+.iconos-redes {
+  margin-right: 0px; }
+  .iconos-redes .fa.fa-behance {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px; }
+  .iconos-redes .fa.fa-linkedin {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px; }
+  .iconos-redes .fa.fa-facebook {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px; }
 
 .columna-imagenes {
   width: 33.3%;
@@ -226,6 +236,49 @@ nav .sin-fondo {
 .image-hover:hover {
   opacity: 1; }
 
+.contacto {
+  text-align: center;
+  font-size: 700;
+  font-size: 20px;
+  margin-top: 50px;
+  color: #6d6d6d; }
+
+.boton-contacto {
+  color: #fff !important;
+  background-color: #ffaaa3 !important;
+  border: none;
+  outline: 0;
+  padding: 5px 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center; }
+
+.fa {
+  font-size: 20px;
+  color: #6d6d6d;
+  padding: 5px 10px 5px 5px; }
+
+.input-estilos {
+  padding: 5px 20px 5px 5px; }
+
+.name-email-input {
+  display: flex; }
+
+.estilos-input {
+  margin-right: 20px;
+  padding: 8px; }
+
+.acomodar-boton {
+  display: flex;
+  justify-content: center; }
+
+.row-contacto {
+  margin-top: 50px;
+  display: flex;
+  justify-content: flex-end; }
+
 .furia-animal {
   margin-left: 80px;
   font-weight: 300; }
@@ -233,6 +286,9 @@ nav .sin-fondo {
     margin-top: 0px; }
   .furia-animal img {
     padding: 5px; }
+
+.imagen-utah {
+  width: 80%; }
 
 @media screen and (max-width: 1023px) {
   header {
@@ -411,35 +467,26 @@ nav .sin-fondo {
       color: #e4cf8c;
       font-size: 16px; }
 
-  .iconos-redes {
-    margin-right: 10px; }
-    .iconos-redes .fa.fa-behance {
-      font-size: 15px;
-      background: #ffaaa3;
-      color: #fff;
-      padding: 10px; }
-    .iconos-redes .fa.fa-linkedin {
-      font-size: 15px;
-      background: #ffaaa3;
-      color: #fff;
-      padding: 10px; }
-    .iconos-redes .fa.fa-facebook {
-      font-size: 15px;
-      background: #ffaaa3;
-      color: #fff;
-      padding: 10px; }
-
   .navbar-default {
     background-color: white;
     border-color: white; }
 
-  footer {
-    color: red; }
+  .footer-eve {
+    background-color: #e4cf8c;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px; }
+    .footer-eve p {
+      padding: 20px 10px 10px 10px; }
 
   .columna-imagenes {
     width: 100%;
     display: inline-block;
     vertical-align: top; }
+
+  .boton-contacto {
+    margin-top: 10px; }
 
   .furia-animal {
     margin-left: 0px; }
@@ -454,7 +501,10 @@ nav .sin-fondo {
       padding: 5px; }
     .furia-animal p {
       color: #6d6d6d;
-      font-weight: 300; } }
+      font-weight: 300; }
+
+  .imagen-utah {
+    width: 100%; } }
 /*
 Para compilar los archivos:
     - Nos paramos en la raiz del proyecto

@@ -1,3 +1,11 @@
-footer {
-    color: red;
+.footer-eve{
+   background-color: $amarillo-oscuro;
+   padding: 20px;
+   color: #fff;
+   text-align: center;
+   margin-top: 50px;
+
+   p{
+   	padding: 20px 10px 10px 10px;
+   }
 }

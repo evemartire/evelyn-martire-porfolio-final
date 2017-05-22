@@ -6,8 +6,8 @@
     <title>Portfolio Eve Martire</title>
     <link rel="stylesheet" href="styles/css/normalize.css">
     <link rel="stylesheet" href="styles/css/bootstrap.min.css">
-    <link rel="stylesheet" href="styles/css/main.css">
     <link rel="stylesheet" href="styles/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/css/main.css">
 </head>
 
 <body>
@@ -35,31 +35,20 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse navbar-eve" id="bs-example-navbar-collapse-1">
                     <ul class="nav nav-stacked nav-eve">
-                        <li>PROYECTOS</li>
+                        <li><a class="activo" href="#proyectos">PROYECTOS</a></li>
                         <li>SERVICIOS</li>
                         <li>ACERCA MIO</li>
-                        <li>CONTACTO</li>
+                        <a href="#contact"><li>CONTACTO</li></a>
                     </ul>
 
-                    <!--<div class="iconos-redes">
-                        <a href="https://www.behance.net/evemartire" target="_blank">
-                            <i class="fa fa-behance"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/evelyn-martire-088657141" target="_blank">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                        <a href="https://www.behance.net/evemartire" target="_blank">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </div>-->
-
+                    
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
     </header>
 
     <main>
-        <div class="container">
+        <div class="container" id="proyectos">
             <div class="columna-imagenes">
                 <div class="image-container">
                     <img src="images/imagen-1.jpg" alt="">
@@ -153,6 +142,39 @@
         </div>
     </main>
 
+
+    <!-- The Contact Section -->
+  <div id="contact">
+        <h2 class="contacto">CONTACTO</h2>
+        <div class="row row-contacto">
+          <div class="col-xs-12 col-md-4">
+            <i class="fa fa-map-marker"></i> Chicago, US<br>
+            <i class="fa fa-phone"></i> Phone: +00 151515<br>
+            <i class="fa fa-envelope"> </i> Email: mail@mail.com<br>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <form action="/action_page.php" target="_blank">
+              <div class="name-email-input input-estilos" >
+                <div>
+                  <input class="estilos-input" type="text" placeholder="Name" required name="Name"">
+                </div>
+                <div>
+                  <input class="estilos-input" type="text" placeholder="Email" required name="Email">
+                </div>
+              </div>
+              <div class="input-estilos name-email-input">
+                 <input class="estilos-input" type="text" placeholder="Message" required name="Message">  
+              </div>
+              <div class="acomodar-boton">
+                <button class="boton-contacto" type="submit">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+    </div>
+  
+
+
     <script src="plugins/js/bootstrap.min.js"></script>
     <script src="plugins/js/masonry.min.js"></script>
     <script type="text/javascript">
@@ -167,14 +189,32 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
     </script>
+
+    <script type="text/javascript">
+            $('#menu li a').on('click', function(){
+            $('li a.activo').removeClass('activo');
+            $(this).addClass('activo');
+            });
+    </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
     </script>
 
-    <footer>
-    	<div class="footer-eve">
-    		Powerade by EVE MARTIRE
+    <footer class="footer-eve">
+        <div class="iconos-redes">
+            <a href="https://www.behance.net/evemartire" target="_blank">
+                <i class="fa fa-behance"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/evelyn-martire-088657141" target="_blank">
+                <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://www.behance.net/evemartire" target="_blank">
+                <i class="fa fa-facebook"></i>
+            </a>
+        </div>
+    	<div>
+    		<p>Powerade by EVE MARTIRE</p>
     	</div>
     </footer>
 

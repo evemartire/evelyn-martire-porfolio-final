@@ -163,3 +163,61 @@
 .image-hover:hover {
     opacity: 1;
 }
+
+
+.contacto{
+  text-align: center;
+  font-size: 700;
+  font-size: 20px;
+  margin-top: 50px;
+  color: $color-tipografia;
+}
+
+
+.boton-contacto{
+  color: #fff!important;
+  background-color: $rosa!important;
+  border: none;
+  outline: 0;
+  padding: 5px 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+}
+
+.fa {
+  font-size: 20px;
+  color: $color-tipografia;
+  padding: 5px 10px 5px 5px;
+}
+
+.fa-map-marker{
+
+}
+
+.input-estilos{
+  padding: 5px 20px 5px 5px;
+}
+
+.name-email-input{
+  display: flex;
+}
+
+.estilos-input{
+  margin-right: 20px;
+  padding: 8px;
+}
+
+.acomodar-boton{
+  display: flex;
+  justify-content: center;
+}
+
+
+.row-contacto{
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
