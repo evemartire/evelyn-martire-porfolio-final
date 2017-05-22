@@ -279,6 +279,29 @@ nav .sin-fondo {
   display: flex;
   justify-content: flex-end; }
 
+.row-servicios {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center; }
+
+.servicios-estilos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .servicios-estilos h4 {
+    color: #6d6d6d; }
+  .servicios-estilos p {
+    text-align: center;
+    color: #6d6d6d;
+    font-weight: 300; }
+  .servicios-estilos .fa-mobile {
+    font-size: 45px;
+    color: #6d6d6d; }
+  .servicios-estilos .fa-heart {
+    font-size: 30px;
+    color: #6d6d6d; }
+
 .furia-animal {
   margin-left: 80px;
   font-weight: 300; }

@@ -221,3 +221,39 @@
     display: flex;
     justify-content: flex-end;
 }
+
+
+
+
+.row-servicios{
+  margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.servicios-estilos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h4{
+      color: $color-tipografia;
+    }
+
+    p{
+      text-align: center;
+      color: $color-tipografia;
+      font-weight: 300;
+    }
+
+    .fa-mobile{
+      font-size: 45px;
+      color: $color-tipografia;
+    }
+
+    .fa-heart{
+      font-size: 30px;
+      color: $color-tipografia;
+    }
+}
