@@ -229,6 +229,10 @@ nav .sin-fondo {
 .furia-animal {
   margin-left: 80px;
   font-weight: 300; }
+  .furia-animal h3 {
+    margin-top: 0px; }
+  .furia-animal img {
+    padding: 5px; }
 
 @media screen and (max-width: 1023px) {
   header {
@@ -443,6 +447,11 @@ nav .sin-fondo {
       margin-top: 0px;
       font-weight: 700;
       font-size: 15px; }
+    .furia-animal h5 {
+      font-weight: 400;
+      font-size: 12px; }
+    .furia-animal img {
+      padding: 5px; }
     .furia-animal p {
       color: #6d6d6d;
       font-weight: 300; } }
