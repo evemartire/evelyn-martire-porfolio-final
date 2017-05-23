@@ -284,6 +284,10 @@ nav .sin-fondo {
   padding: 40px;
   margin-top: 50px; }
 
+.centrado-columnas {
+  max-width: 800px;
+  margin: auto; }
+
 .servicios {
   text-align: center;
   font-size: 700;
@@ -292,10 +296,6 @@ nav .sin-fondo {
   color: #6d6d6d; }
 
 .servicios-estilos {
-  /* display: flex;
-   flex-direction: column;
-   justify-content: center;
-   align-items: center;*/
   margin-top: 20px;
   text-align: center;
   margin-top: 10px; }

@@ -228,6 +228,12 @@
   margin-top: 50px;
 }
 
+
+.centrado-columnas{
+  max-width: 800px;
+  margin: auto;
+}
+
 .servicios{
   text-align: center;
   font-size: 700;
@@ -239,10 +245,6 @@
 
 
 .servicios-estilos{
-   /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;*/
     margin-top: 20px;
     text-align: center;
     margin-top: 10px;
