@@ -291,17 +291,13 @@ nav .sin-fondo {
   margin-top: 20px;
   color: #6d6d6d; }
 
-.row-servicios {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px; }
-
 .servicios-estilos {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;*/
+  margin-top: 20px;
+  text-align: center;
   margin-top: 10px; }
   .servicios-estilos h4 {
     color: #6d6d6d; }
@@ -310,7 +306,7 @@ nav .sin-fondo {
     color: #6d6d6d;
     font-weight: 300; }
   .servicios-estilos .fa-mobile {
-    font-size: 45px;
+    font-size: 30px;
     color: #6d6d6d; }
   .servicios-estilos .fa-heart {
     font-size: 30px;
