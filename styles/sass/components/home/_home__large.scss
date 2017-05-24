@@ -228,10 +228,16 @@
   margin-top: 50px;
 }
 
-
+/*
 .centrado-columnas{
   max-width: 800px;
   margin: auto;
+}
+*/
+
+.display-flex-centrado{
+  display: flex;
+  justify-content: center;
 }
 
 .servicios{

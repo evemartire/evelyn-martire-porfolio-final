@@ -284,9 +284,15 @@ nav .sin-fondo {
   padding: 40px;
   margin-top: 50px; }
 
-.centrado-columnas {
+/*
+.centrado-columnas{
   max-width: 800px;
-  margin: auto; }
+  margin: auto;
+}
+*/
+.display-flex-centrado {
+  display: flex;
+  justify-content: center; }
 
 .servicios {
   text-align: center;
@@ -520,6 +526,23 @@ nav .sin-fondo {
 
   .boton-contacto {
     margin-top: 10px; }
+
+  .display-flex-centrado {
+    display: inline-block; }
+
+  .row-contacto {
+    margin-top: 50px;
+    display: inline-block; }
+
+  .name-email-input {
+    display: inline-block; }
+
+  .info-contacto {
+    text-align: center; }
+
+  .formulario-contacto {
+    text-align: center;
+    margin-top: 20px; }
 
   .furia-animal {
     margin-left: 0px; }
